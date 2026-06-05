@@ -1,6 +1,5 @@
 username = input("Enter your name")
 age = int(input("Enter your age"))
-
 if(age>17):
     if(age<121):
         print(f"{username} you are eligible to vote")
