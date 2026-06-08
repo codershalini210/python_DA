@@ -38,3 +38,4 @@
 
 for n in range(10,0,-1):
     print(n)
+    # Count how many numbers are greater than 20 in [5, 25, 15, 30, 10].
