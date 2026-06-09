@@ -28,11 +28,11 @@ for k,v in students.items():
         else:
             per = sum(v)/len(v)
             if(per>59):
-                msg = "passed in 1st div"
+                msg = f"passed in 1st div {per}"
             elif(per>44):
-                msg ="passed in 2nd div"
+                msg =f"passed in 2nd div {per}"
             else:
-                msg = "Passed in 3rd division"
+                msg = f"Passed in 3rd division {per}"
     if(not flagPass):
         msg = f"  Fail"
     print(k," ",msg)
