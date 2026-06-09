@@ -25,6 +25,14 @@ for k,v in students.items():
         if(m<35):
             flagPass=False
             break
+        else:
+            per = sum(v)/len(v)
+            if(per>59):
+                msg = "passed in 1st div"
+            elif(per>44):
+                msg ="passed in 2nd div"
+            else:
+                msg = "Passed in 3rd division"
     if(not flagPass):
-        msg = f"{k}  Fail"
-    print(msg)
+        msg = f"  Fail"
+    print(k," ",msg)
