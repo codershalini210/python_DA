@@ -1,3 +1,12 @@
+# users = {12,42,53}
+# print(users)
+
+# marks = [12,4,23,4,25,34,45,32,36]
+# print(max(marks))
+# print(min(marks))
+# print(sum(marks))
+# print(sum(marks)/len(marks))
+
 
 # print(Enter cityname)
 # vapi
@@ -10,7 +19,8 @@
 # print(len(set1))
 # set2 = {4,5,6,7}
  
-# # print(set1-set2)
+# # print(set1-se
+# t2)
 # print(set2-set1)
 # print(set2 ^ set1)
 # print(set1)
