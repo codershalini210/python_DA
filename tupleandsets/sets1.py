@@ -1,4 +1,11 @@
 
+# print(Enter cityname)
+# vapi
+# add this to set 
+#  and show message , city added succesfully
+# city already present 
+
+
 # set1 = {1,2,3,4,5}
 # print(len(set1))
 # set2 = {4,5,6,7}
