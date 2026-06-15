@@ -1,0 +1,5 @@
+hello world
+how are you today
+we are learning file handling
+this is line 4
+this is line 5 

@@ -1,0 +1,12 @@
+
+enter username : john   -> john.txt check file 
+existance before creation 
+ if file exits :
+username not avaible choose other 
+create a file :
+name :
+age
+address
+contact no 
+email 
+
