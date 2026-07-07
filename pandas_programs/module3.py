@@ -1,13 +1,17 @@
 import pandas as pd
 
 df = pd.read_json("data.json")
-print(df.head())
-df_True = df #[df["completed"]==True] 
-print(df_True)
+# print(df.head())
+# df_True = df #[df["completed"]==True] 
+# print(df_True)
 id = int(input("Enter user id "))
 
-df_7 =df_True[df["userId"]==7]
-print(df_7.count())
+df_id =df[df["userId"]==id]
+print("Total Task ",df_id["userId"].count())
+df_id_completed = df_id[df_id["completed"]]
+
+print("completed Task ",df_id_completed["userId"].count())
+print("Incompleted Task ",df_id["userId"].count()-df_id_completed["userId"].count())
 
 # df = pd.read_csv("electronics.csv")
 # print(df)
