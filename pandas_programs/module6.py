@@ -1,0 +1,10 @@
+import pandas as pd 
+df = pd.read_excel("Basic Excel.xlsx","Sheet2")
+# print(df.isnull())
+# print(df["sub1"].isnull())
+# df["sub1"]=df["sub1"].fillna(0)
+# df["sub2"]=df["sub2"].fillna(0)
+# df["sub3"]=df["sub3"].fillna(0)
+df=df.replace("Abs",None)
+df[["sub1","sub2","sub3"]]=df[["sub1","sub2","sub3"]].fillna(0)
+print(df[["sub1","sub2","sub3"]])    #.isnull())
