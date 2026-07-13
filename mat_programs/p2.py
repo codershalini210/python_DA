@@ -20,7 +20,7 @@ sub3_fail = data["sub3"].count() -sub3_pass
 sub3 = [sub3_pass,sub3_fail]
 # sub4 = [4,6]
 print(sub1,sub2,sub3)
-plt.plot(xaxis,sub1,label="sub1")
+plt.plot(xaxis,sub1,label="sub1",color="black")
 plt.plot(xaxis,sub2,label="sub2")
 plt.plot(xaxis,sub3,label="sub3")
 # plt.plot(xaxis,sub4,label="sub4")
