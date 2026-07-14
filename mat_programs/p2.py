@@ -9,7 +9,7 @@ xaxis = list(data["result"].sort_values(ascending=False).unique())
 
 sub1_pass = (data[data["sub1"]>34]["sub1"]).count()
 sub1_fail = data["sub1"].count() -sub1_pass
-sub1 = [sub1_pass,sub1_fail]
+sub1 = [sub1_pass+1,sub1_fail+1]
 
 sub2_pass = (data[data["sub2"]>34]["sub2"]).count()
 sub2_fail = data["sub2"].count() -sub2_pass
