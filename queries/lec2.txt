@@ -1,0 +1,32 @@
+-- select * from temployees where name like 'S%'
+-- select * from temployees where name like 'Sa%'
+-- select * from temployees where name like '%s'
+-- select * from temployees where name ilike 'S%'
+-- select * from temployees where name ilike '%S'
+-- select * from temployees where name ilike '%es'
+-- select * from temployees where name ilike '_av%'
+
+
+-- select * from temployees where department='HR';
+-- select count(*) as total from temployees where department='HR';
+-- select * from temployees order by department
+-- select distinct department from temployees
+-- select count(distinct department) from temployees
+-- select sum(salary) from temployees
+-- select sum(salary) from temployees where department='HR'
+-- select max(salary) from temployees
+-- select max(salary) from temployees where department ='IT'
+-- select min(salary) from temployees
+-- select min(salary) from temployees where department ='IT'
+-- select avg(salary) from temployees
+-- select avg(salary) from temployees where department ='IT'
+-- select max(salary) from temployees
+-- select * from temployees where salary>50000
+-- select * from temployees where name ='oxana'
+-- select * from temployees where salary >50000 and salary <60000
+-- select * from temployees where salary between 50000 and 60000
+-- select * from temployees where exp =5 or exp = 4
+-- select * from temployees where department = 'HR' or department='IT' 
+-- or department='Sales'
+-- select * from temployees where department in ('HR','IT','Sales')
+-- select * from temployees where department not in ('HR','IT','Sales')
